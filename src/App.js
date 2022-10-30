@@ -7,16 +7,13 @@ import { Events } from "./components/Events";
 // import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import About from "./components/About";
+import Homepage from "./components/Homepage";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Banner />
-      <Events />
-      <About />
-      {/* <Skills /> */}
-      {/* <Contact /> */}
+      <Homepage />
       <Footer />
     </div>
   );

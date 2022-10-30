@@ -5,6 +5,7 @@ const About = () => {
   return (
     <section className="about" id="about">
       <Container>
+        <AboutUsDescription />
         <OurVisionMission />
         <OurStory />
       </Container>
@@ -14,6 +15,16 @@ const About = () => {
 
 export default About;
 
+const AboutUsDescription = () => (
+  <>
+    <h2>About Us</h2>
+    <p>
+      NUS MSL is short for National University of Singapore Malaysian Students’
+      League. Founded in 2004, we are a community of Malaysian students offering
+      each other the comfort of home at a place away from home.
+    </p>
+  </>
+);
 const OurVisionMission = () => (
   <>
     <h2>Our Vision and Mission</h2>
