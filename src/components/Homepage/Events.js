@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import MASIS_Image1 from "../assets/event_pics/MASIS/MASIS-img-1.jpg";
-import UFO_Image1 from "../assets/event_pics/UFO_17/UFO-img-1.jpg";
-import UFO_Image2 from "../assets/event_pics/UFO_17/UFO-img-2.jpg";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import MASIS_Image1 from "../../assets/event_pics/MASIS/MASIS-img-1.jpg";
+import UFO_Image1 from "../../assets/event_pics/UFO_17/UFO-img-1.jpg";
+import UFO_Image2 from "../../assets/event_pics/UFO_17/UFO-img-2.jpg";
+import colorSharp2 from "../../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 

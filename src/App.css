@@ -419,7 +419,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding: 80px 0 180px 0;
   position: relative;
   background-color: black;
 }
@@ -696,4 +696,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #ffffff;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+/************ Meet Css ************/
+.meet {
+  margin-top: 0;
+  min-height: 100vh;
+  padding: 200px 200px 200px 200px;
+  background-image: url("./assets/img/banner-bg.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

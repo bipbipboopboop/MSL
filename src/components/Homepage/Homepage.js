@@ -9,8 +9,8 @@ const Homepage = () => {
   return (
     <div className="App">
       <Banner />
-      <Events />
       <About />
+      <Events />
       {/* <Skills /> */}
       {/* <Contact /> */}
     </div>

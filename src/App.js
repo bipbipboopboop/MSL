@@ -1,19 +1,22 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { Events } from "./components/Events";
-// import { Skills } from "./components/Skills";
-// import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import About from "./components/About";
-import Homepage from "./components/Homepage";
+
+import Homepage from "./components/Homepage/Homepage";
+import OurTeam from "./components/OurTeam/OurTeam";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Homepage />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about-us" element={<OurTeam />} />
+      </Routes>
+
       <Footer />
     </div>
   );

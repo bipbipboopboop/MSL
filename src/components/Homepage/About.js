@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -8,6 +9,9 @@ const About = () => {
         <AboutUsDescription />
         <OurVisionMission />
         <OurStory />
+        <div>
+          <Link to="/about-us">Find Out More</Link>
+        </div>
       </Container>
     </section>
   );
