@@ -16,16 +16,21 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#">
+              {/* <a href="#">
                 <img src={navIcon1} alt="Icon" />
-              </a>
-              <a href="#">
+              </a> */}
+              <a href="https://www.facebook.com/nusmsl">
                 <img src={navIcon2} alt="Icon" />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/nus.msl">
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>
+
+            <a href="nusmsl.msl@gmail.com" style={{ textDecoration: "none" }}>
+              <p>nusmsl.msl@gmail.com</p>
+            </a>
+
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
         </Row>

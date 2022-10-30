@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["MSL", "Malaysian Student League"];
+  const toRotate = ["For Malaysians by Malaysians", "Home away from Home"];
   const period = 1000;
 
   useEffect(() => {
@@ -54,7 +54,7 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
@@ -63,20 +63,13 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h1>
-                    {`Welcome to `}{" "}
-                    <span
-                      className="txt-rotate"
-                      dataPeriod="1000"
-                      data-rotate='[ "MSL", "Malaysian Student League"]'
-                    >
+                  <h1>{`Welcome to Malaysian Student League!`} </h1>
+
+                  <h3>
+                    <span className="txt-rotate" dataPeriod="1000">
                       <span className="wrap">{text}</span>
                     </span>
-                  </h1>
-                  <p>
-                    Home away from Home, for Malaysian by Malaysians.
-                    hehehehehehehheheheheheheheh
-                  </p>
+                  </h3>
                 </div>
               )}
             </TrackVisibility>
