@@ -11,18 +11,16 @@ import outreach3 from "../../assets/committee_pics/Outreach/Hao Jun.png";
 import publicity from "../../assets/committee_pics/Publicity/Ze Chun.png";
 import welfare from "../../assets/committee_pics/Welfare/Yu Cong.png";
 
-const gallery = { president, vice_president1, vice_president2 };
-
 const committeeArray = [
   {
     position: "President",
-    personArray: [{ name: "Nathan Choo En Xi", pic: gallery?.president }],
+    personArray: [{ name: "Nathan Choo En Xi", pic: president }],
   },
   {
     position: "Vice President",
     personArray: [
-      { name: "Ng Zi Yi", pic: gallery?.vice_president1 },
-      { name: "Cheah Hao Yi", pic: gallery?.vice_president2 },
+      { name: "Ng Zi Yi", pic: vice_president1 },
+      { name: "Cheah Hao Yi", pic: vice_president2 },
     ],
   },
   {
