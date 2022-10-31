@@ -40,8 +40,8 @@ const committeeArray = [
   {
     position: "Public Rlation and Outreach Vice-Head",
     personArray: [
-      { name: "Lew Hao Jun", pic: outreach2 },
-      { name: "Lim Tze Wei", pic: outreach3 },
+      { name: "Lim Tze Wei", pic: outreach2 },
+      { name: "Lew Hao Jun", pic: outreach3 },
     ],
   },
   {
