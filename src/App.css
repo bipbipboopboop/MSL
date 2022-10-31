@@ -712,18 +712,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .forfreshmen {
   margin-top: 0;
-  min-height: 100vh;
-  padding: 200px 200px 200px 200px;
+  height: 100vh;
   background-image: url("./assets/img/banner-bg3.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .forfreshmen h1 {
   font-size: 11em;
+  text-align: center;
   color: red;
   text-decoration: underline;
   text-transform: uppercase;
   transform: rotate(-5deg) skew(-5deg);
+}
+
+@media (max-width: 767px) {
+  .forfreshmen h1 {
+    font-size: 5em;
+  }
 }
