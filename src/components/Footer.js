@@ -11,8 +11,10 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           {/* <MailchimpForm /> */}
-          <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+          <Col size={12} sm={6} className="d-none d-md-block">
+            <div className="justify-content-center">
+              <img src={logo} alt="Logo" />
+            </div>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
@@ -27,7 +29,10 @@ export const Footer = () => {
               </a>
             </div>
 
-            <a href="nusmsl.msl@gmail.com" style={{ textDecoration: "none" }}>
+            <a
+              href="mailto:nusmsl.msl@gmail.com"
+              style={{ textDecoration: "none" }}
+            >
               <p>nusmsl.msl@gmail.com</p>
             </a>
 
