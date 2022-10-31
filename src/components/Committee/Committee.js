@@ -29,7 +29,7 @@ const PositionRow = ({ positionDetail }) => (
 
 const PersonCard = ({ personDetail }) => (
   <div
-    className="md-mx-5 pb-5 mb-3"
+    className="sm-mx-0 mx-5 pb-5 mb-3"
     style={{
       minWidth: "20em",
       width: "20em",
