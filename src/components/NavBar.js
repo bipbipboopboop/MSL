@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import logo from "../assets/img/msl-logo.png";
 
@@ -78,9 +79,11 @@ export const NavBar = () => {
               </a>
             </div>
 
-            <button className="vvd">
-              <span>For Freshmen</span>
-            </button>
+            <Link to="/for-freshmen" style={{ textDecoration: "none" }}>
+              <button className="vvd">
+                <span>For Freshmen</span>
+              </button>
+            </Link>
           </span>
         </Navbar.Collapse>
       </Container>
