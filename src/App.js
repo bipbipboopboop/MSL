@@ -6,7 +6,7 @@ import { NavBar } from "./components/NavBar";
 import { Footer } from "./components/Footer";
 
 import Homepage from "./components/Homepage/Homepage";
-import OurTeam from "./components/OurTeam/OurTeam";
+import CommitteeTeam from "./components/Committee/Committee";
 import ForFreshmen from "./components/ForFreshmen/ForFreshmen";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/about-us" element={<OurTeam />} />
+        <Route path="/about-us" element={<CommitteeTeam />} />
         <Route path="/for-freshmen" element={<ForFreshmen />} />
       </Routes>
 
