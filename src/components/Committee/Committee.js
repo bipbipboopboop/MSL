@@ -33,11 +33,16 @@ const PersonCard = ({ personDetail }) => (
     style={{
       minWidth: "20em",
       width: "20em",
+
       backgroundColor: "purple",
       backgroundImage: `url(${card_background})`,
     }}
   >
-    <Card.Img className="mt-3" src={personDetail?.pic} />
+    <Card.Img
+      className="mt-3"
+      style={{ maxHeight: "20em", height: "20em" }}
+      src={personDetail?.pic}
+    />
     <Card.Body>
       <p>{personDetail?.name}</p>
     </Card.Body>
