@@ -714,7 +714,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   min-height: 100vh;
   padding: 200px 200px 200px 200px;
-  background-image: url("./assets/img/banner-bg2.png");
+  background-image: url("./assets/img/banner-bg3.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -722,6 +722,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .forfreshmen h1 {
   font-size: 11em;
+  color: red;
   text-decoration: underline;
   text-transform: uppercase;
   transform: rotate(-5deg) skew(-5deg);
